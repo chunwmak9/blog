@@ -7,4 +7,4 @@ git remote add origin https://github.com/chunwmak9/blog.git <br>
 git push -u origin main <br>
 npm run deploy <br>
 
-https://chunwmak9.github.io/blog/
+<b>URL:</b> https://chunwmak9.github.io/blog/
