@@ -5,7 +5,7 @@ function Home() {
     <div className="content home">
       <WalkingWorker />
       <div className="profile">
-        <img src="/img/benny.png" alt="Benny" className="profile-img" />
+        <img src={`${import.meta.env.BASE_URL}img/benny.png`}  alt="Benny" className="profile-img" />
         <div className="resume">
           <h2>Mr. Mak Chun Wing (Benny), MScIT, MHKCS</h2>
           <hr />
