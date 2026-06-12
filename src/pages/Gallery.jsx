@@ -7,7 +7,7 @@ function Gallery({ addScore }) {
   const [xpPop, setXpPop] = useState(null);
 
   useEffect(() => {
-    fetch("/gallery.md")
+    fetch("gallery.md")
       .then((res) => res.text())
       .then((text) => {
         const parts = text.split(/(?=^## )/m);

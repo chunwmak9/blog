@@ -13,7 +13,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/blog">
       <div className="app">
         <Header />
         <Navbar score={score} addScore={addScore} />
